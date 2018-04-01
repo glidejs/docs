@@ -1,0 +1,19 @@
+{
+  "name": "@glidejs/docs",
+  "version": "3.0.0",
+  "description": "Documentation of the Glide.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glidejs/docs.git"
+  },
+  "keywords": [
+    "glidejs",
+    "documentation"
+  ],
+  "author": "Jędrzej Chałubek <jedrzej.chalubek@gmail.com> (https://jedrzejchalubek.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glidejs/docs/issues"
+  },
+  "homepage": "https://github.com/glidejs/docs#readme"
+}
