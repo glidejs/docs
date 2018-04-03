@@ -12,7 +12,7 @@ algolia: true
 This module can be imported using `Controls` keyword.
 
 ```js
-import { Glide, Controls } from 'glidejs/dist/glide.modular.esm'
+import { Glide, Controls } from '@glidejs/glide/dist/glide.modular.esm'
 
 new Glide('.glide').mount({ Controls })
 ```

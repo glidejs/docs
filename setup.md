@@ -16,14 +16,14 @@ It is a recommended way. This installation method guarantees a trouble-free use 
 
 ```bash
 # Install the last stable version
-$ npm install glidejs
+$ npm install @glidejs/glide
 ```
 
 #### Download
 
 You can also traditionally download latest files from the Github:
 
-<a class="button" href="//github.com/jedrzejchalubek/glidejs/releases/latest">Download latest release</a>
+<a class="button" href="//github.com/glidejs/glide/releases/latest">Download latest release</a>
 
 #### CDN
 
@@ -62,10 +62,10 @@ Provide `<link>` to the stylesheets `.css` files.
 
 ```html
 <!-- Required Core Stylesheet -->
-<link rel="stylesheet" href="node_modules/glidejs/dist/css/glide.core.min.css">
+<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 
 <!-- Optional Theme Stylesheet -->
-<link rel="stylesheet" href="node_modules/glidejs/dist/css/glide.theme.min.css">
+<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 ```
 
 #### Using SASS `@import`
@@ -74,10 +74,10 @@ Import `.scss` files directly from the source directory.
 
 ```scss
 // Required Core Stylesheet
-@import "node_modules/glidejs/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
 
 // Optional Theme Stylesheet
-@import "node_modules/glidejs/src/assets/sass/glide.theme";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
 ```
 
 ### Structure
@@ -156,7 +156,7 @@ Making a bullets navigation is pretty similar. However, use the `data-glide-el="
 Simply reference a minified version of the script.
 
 ```html
-<script src="node_modules/glidejs/dist/glide.min.js"></script>
+<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
 <script>
   new Glide('.glide').mount()
@@ -166,7 +166,7 @@ Simply reference a minified version of the script.
 #### Using ES Modules
 
 ```js
-import Glide from 'glidejs'
+import Glide from '@glidejs/glide'
 
 new Glide('.glide').mount()
 ```
@@ -176,7 +176,7 @@ Need a few selected modules? Import and mount only needed components. In pair wi
 > Notice that we are using here a path to the modular build. Go back to [explanation]() section to learn more.
 
 ```js
-import { Glide, Controls, Breakpoints } from 'glidejs/dist/glide.modular.esm'
+import { Glide, Controls, Breakpoints } from '@glidejs/glide/dist/glide.modular.esm'
 
 new Glide('.glide').mount({ Controls, Breakpoints })
 ```

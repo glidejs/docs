@@ -8,10 +8,10 @@ algolia: true
 
 [[lead]]Great that you are considering supporting the project. You have a lot of ways to help the project grow.[[/lead]]
 
-- Propose a [feature](//github.com/jedrzejchalubek/glidejs/issues)
-- Report an [issue](//github.com/jedrzejchalubek/glidejs/issues)
-- Send a [pull request](//github.com/jedrzejchalubek/glidejs/pulls)
-- Star project on the [GitHub](//github.com/jedrzejchalubek/glidejs)
+- Propose a [feature](//github.com/glidejs/glide/issues)
+- Report an [issue](//github.com/glidejs/glide/issues)
+- Send a [pull request](//github.com/glidejs/glide/pulls)
+- Star project on the [GitHub](//github.com/glidejs/glide)
 - Follow me on [Twitter](//twitter.com/jedrzejchalubek)
 - Tell about project around your community
 
