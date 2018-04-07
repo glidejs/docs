@@ -28,8 +28,8 @@ You can also traditionally download latest files from the Github:
 #### CDN
 
 You can also use a reference to some of the popular CDN services:
-- [cdn.jsdelivr.net/npm/glidejs](//cdn.jsdelivr.net/npm/glidejs)
-- [unpkg.com/glidejs](https://unpkg.com/glidejs)
+- [https://cdn.jsdelivr.net/npm/@glidejs/glide](https://cdn.jsdelivr.net/npm/@glidejs/glide)
+- [https://unpkg.com/@glidejs/glide](https://unpkg.com/@glidejs/glide)
 
 ### Explanation of Different Builds
 
