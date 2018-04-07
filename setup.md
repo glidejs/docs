@@ -54,7 +54,7 @@ Glide.js styles are divided into two separate files:
 - `glide.core` - Core styles, required for Glide.js to work
 - `glide.theme` - Visual styles. Optional styling for markup.
 
-This way, a library doesn't force you to overwrite it's visual styles if you want to implement your own look.
+This way, the library doesn't force you to overwrite it's visual styles if you want to implement your own look.
 
 #### Using `<link>`
 
@@ -171,7 +171,7 @@ import Glide from '@glidejs/glide'
 new Glide('.glide').mount()
 ```
 
-Need a few selected modules? Import and mount only needed components. In pair with bundle's [tree-sheaking](//webpack.js.org/guides/tree-shaking/) it's a great way to reduce a total weight of the script!
+Need a few selected modules? Import and mount only needed components. In pair with a bundler's [tree-shaking](//webpack.js.org/guides/tree-shaking/) it's a great way to reduce the total weight your code!
 
 > Notice that we are using here a path to the modular build. Go back to [explanation]() section to learn more.
 
