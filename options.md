@@ -191,7 +191,10 @@ Collection of internally used HTML classes. Default values:
 
 ```
 {
-  rtl: 'glide--rtl',
+  direction: {
+    ltr: 'glide--ltr',
+    rtl: 'glide--rtl'
+  },
   slider: 'glide--slider',
   carousel: 'glide--carousel',
   swipeable: 'glide--swipeable',
