@@ -176,7 +176,7 @@ Need a few selected modules? Import and mount only needed components. In pair wi
 > Notice that we are using here a path to the modular build. Go back to [explanation]() section to learn more.
 
 ```js
-import { Glide, Controls, Breakpoints } from '@glidejs/glide/dist/glide.modular.esm'
+import Glide, { Controls, Breakpoints } from '@glidejs/glide/dist/glide.modular.esm'
 
 new Glide('.glide').mount({ Controls, Breakpoints })
 ```
