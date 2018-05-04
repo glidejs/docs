@@ -125,8 +125,8 @@ Knowing about the controls, preparing the arrows navigation is quite simple.
   <div class="glide__track" data-glide-el="track">...</div>
 
   <div class="glide__arrows" data-glide-el="controls">
-    <button class="glide__arrow glide__arrow--prev" data-glide-dir="<">prev</button>
-    <button class="glide__arrow glide__arrow--next" data-glide-dir=">">next</button>
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
   </div>
 </div>
 ```
