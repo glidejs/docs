@@ -26,7 +26,7 @@ This module is requisite and it's imported within a bundle.
 
 ---
 
-### `lenght` <small>type: `{Number}`</small>
+### `length` <small>type: `{Number}`</small>
 
 - **Usage:** Holds a zero-based value of the running distance
 
