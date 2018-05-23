@@ -12,7 +12,7 @@ algolia: true
 This module can be imported using `Anchors` keyword.
 
 ```js
-import { Glide, Anchors } from '@glidejs/glide/dist/glide.modular.esm'
+import Glide, { Anchors } from '@glidejs/glide/dist/glide.modular.esm'
 
 new Glide('.glide').mount({ Anchors })
 ```
