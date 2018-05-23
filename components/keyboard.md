@@ -12,7 +12,7 @@ algolia: true
 This module can be imported using `Keyboard` keyword.
 
 ```js
-import { Glide, Keyboard } from '@glidejs/glide/dist/glide.modular.esm'
+import Glide, { Keyboard } from '@glidejs/glide/dist/glide.modular.esm'
 
 new Glide('.glide').mount({ Keyboard })
 ```

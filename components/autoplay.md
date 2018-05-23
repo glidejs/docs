@@ -12,7 +12,7 @@ algolia: true
 This module can be imported using `Autoplay` keyword.
 
 ```js
-import { Glide, Autoplay } from '@glidejs/glide/dist/glide.modular.esm'
+import Glide, { Autoplay } from '@glidejs/glide/dist/glide.modular.esm'
 
 new Glide('.glide').mount({ Autoplay })
 ```

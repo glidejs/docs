@@ -12,7 +12,7 @@ algolia: true
 This module can be imported using `Images` keyword.
 
 ```js
-import { Glide, Images } from '@glidejs/glide/dist/glide.modular.esm'
+import Glide, { Images } from '@glidejs/glide/dist/glide.modular.esm'
 
 new Glide('.glide').mount({ Images })
 ```

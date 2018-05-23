@@ -12,7 +12,7 @@ algolia: true
 This module can be imported using `Swipe` keyword.
 
 ```js
-import { Glide, Swipe } from '@glidejs/glide/dist/glide.modular.esm'
+import Glide, { Swipe } from '@glidejs/glide/dist/glide.modular.esm'
 
 new Glide('.glide').mount({ Swipe })
 ```
