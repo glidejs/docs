@@ -134,6 +134,12 @@ Duration of the animation in milliseconds.
 
 ---
 
+### `rewind` <small>default: `true` type: `Boolean`</small>
+
+Allows looping the `slider` type. Slider will rewind to the first/last slide when it's at the start/end.
+
+---
+
 ### `rewindDuration` <small>default: `800` type: `Number`</small>
 
 Duration of the rewinding animation of the `slider` type in milliseconds.
