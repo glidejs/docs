@@ -86,6 +86,14 @@ Allow for changing slides with left and right keyboard arrows.
 
 ---
 
+### `bound` <small>default: `false` type: `Boolean`</small>
+
+> Works only with `slider` type and a non-centered `focusAt` setting.
+
+Stop running `perView` number of slides from the end. Use this option if you don't want to have an empty space after a slider.
+
+---
+
 ### `swipeThreshold` <small>default: `80` type: `Number|Boolean`</small>
 
 Minimal swipe distance needed to change the slide. Use `false` for turning off a swiping.

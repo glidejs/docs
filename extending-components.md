@@ -1,7 +1,7 @@
 ---
-title: Extending
+title: Extending Components
 layout: docs.html
-slug: extending
+slug: extending-components
 priority: 1
 algolia: true
 ---
