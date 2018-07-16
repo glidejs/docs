@@ -92,6 +92,8 @@ Allow for changing slides with left and right keyboard arrows.
 
 Stop running `perView` number of slides from the end. Use this option if you don't want to have an empty space after a slider.
 
+[[example dir=options/bound]]
+
 ---
 
 ### `swipeThreshold` <small>default: `80` type: `Number|Boolean`</small>
@@ -144,7 +146,11 @@ Duration of the animation in milliseconds.
 
 ### `rewind` <small>default: `true` type: `Boolean`</small>
 
+> Works only with `slider` type.
+
 Allows looping the `slider` type. Slider will rewind to the first/last slide when it's at the start/end.
+
+[[example dir=options/rewind]]
 
 ---
 
