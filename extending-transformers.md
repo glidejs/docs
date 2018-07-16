@@ -6,11 +6,13 @@ priority: 2
 algolia: true
 ---
 
-[[lead]]Glide uses transformers to mutate `translate` value. They mutates it's value to achive e.q. centered focusing or rtl movement.[[/lead]]
+[[lead]]Glide uses transformers to mutate `translate` value. They mutates it's value to achieve e.q. centered focusing or right-to-left movement.[[/lead]]
 
 ## Using Transformers
 
-The transformer is a simple `function` that returns an `object` with `modify()` method. It's importand to understand that transformers works like piplines - previously modified value is passed to the next transformer, so order of transformers matters!
+The transformer is a simple `function` that returns an `object` with `modify()` method.
+
+> It's importand to understand that transformers works like piplines - previously modified value is passed to the next transformer, so order of transformers matters!
 
 #### Creating Custom Transformers
 
