@@ -5,7 +5,7 @@ slug: gaps
 algolia: true
 ---
 
-[[lead]]Responsible for appling gaps between slides[[/lead]]
+[[lead]]Responsible for applying gaps between slides[[/lead]]
 
 ## Usage <small>type: `required`</small>
 
