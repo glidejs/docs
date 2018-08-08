@@ -17,8 +17,6 @@ Everything on board, ready for action. Written in vanilla JavaScript without hid
 
 The modular structure provides excellent compression. Oh yes, it weights only **~[[filesize file=node_modules/@glidejs/glide/dist/glide.min.js]]kb (~[[gzipsize file=node_modules/@glidejs/glide/dist/glide.min.js]]kb gzipped)** with every functionality included.
 
-[Discover all available components →](/docs/components)
-
 ### Modular
 
 Need a few selected modules? Remove unused modules and drop overall script weight even more.
