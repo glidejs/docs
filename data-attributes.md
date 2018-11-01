@@ -46,7 +46,7 @@ Special variant of standard `data-glide-el="controls"` attribute. Elements insid
     <button data-glide-dir="=1"></button>
     <button data-glide-dir="=2"></button>
   </div>
-</glide>
+</div>
 ```
 
 ---
