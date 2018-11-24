@@ -19,10 +19,9 @@ I appreciate all contributions, even the smallest. Thank you!
 
 ## Donations
 
-Glide.js is an open source project licensed under the MIT license. It's completely free to use, however, it would be great if you buy me a cup of coffee once in a while.
+Glide.js is an open source project licensed under the MIT license. It's completely free to use. However, it would be great if you buy me a cup of coffee once in a while to keep me awake :)
 
-<a href="//www.paypal.me/jedrzejchalubek" class="button">
-  <span class="button__icon">
-    <img class="image image--middle" src="/images/paypal-logotype.png" width="100" alt="Paypal donation">
-  </span>
-</a>
+- [PayPal](https://www.paypal.me/jedrzejchalubek)
+- Bitcoin (BTC) - `3LS37Xzyiwthmi73GeBrFXcYzJkbV32k4o`
+- Ether (ETH) - `0xB5a1272b14fB4d794bdEaaC72ea9520c8D9fC74A`
+- Litecoin (LTC) - `MA9o1Tcj6VDwKGg1ez4yPngAhTcy988c2S`
