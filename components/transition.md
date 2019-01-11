@@ -54,7 +54,7 @@ This module is requisite and it's imported within a bundle.
 
 ### `disable()`
 
-- **Usage:** Disables transitions. The instance will make immediately jumps to indexes instead of smooth movements
+- **Usage:** Disables transitions. The instance will make immediate jumps to indexes instead of smooth movements
 
 ---
 
