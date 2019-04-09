@@ -6,31 +6,6 @@ priority: 6
 algolia: true
 ---
 
-- [Reference](#reference)
-  - [`type`](#type)
-  - [`startAt`](#startAt)
-  - [`perView`](#perView)
-  - [`focusAt`](#focusAt)
-  - [`gap`](#gap)
-  - [`autoplay`](#autoplay)
-  - [`hoverpause`](#hoverpause)
-  - [`keyboard`](#keyboard)
-  - [`bound`](#bound)
-  - [`swipeThreshold`](#swipeThreshold)
-  - [`dragThreshold`](#dragThreshold)
-  - [`perTouch`](#perTouch)
-  - [`touchRatio`](#touchRatio)
-  - [`touchAngle`](#touchAngle)
-  - [`animationDuration`](#animationDuration)
-  - [`rewind`](#rewind)
-  - [`rewindDuration`](#rewindDuration)
-  - [`animationTimingFunc`](#animationTimingFunc)
-  - [`direction`](#direction)
-  - [`peek`](#peek)
-  - [`breakpoints`](#breakpoints)
-  - [`classes`](#classes)
-  - [`throttle`](#throttle)
-
 [[lead]]Glide can be adjusted with various options. Pass an object as an argument while initializing a new instance[[/lead]]
 
 ```js
@@ -42,6 +17,32 @@ new Glide('.glide', {
 ```
 
 ## Reference
+
+- [`type`](#type) - Type of the movement
+- [`startAt`](#startAt) - Start at specific slide number
+- [`perView`](#perView) - A number of visible slides
+- [`focusAt`](#focusAt) - Focus currently active slide at a specified position
+- [`gap`](#gap) - A size of the space between slides
+- [`autoplay`](#autoplay) - Change slides after a specified interval
+- [`hoverpause`](#hoverpause) - Stop autoplay on mouseover
+- [`keyboard`](#keyboard) - Change slides with keyboard arrows
+- [`bound`](#bound) - Stop running `perView` number of slides from the end
+- [`swipeThreshold`](#swipeThreshold) - Minimal swipe distance needed to change the slide
+- [`dragThreshold`](#dragThreshold) - Minimal mousedrag distance needed to change the slide
+- [`perTouch`](#perTouch) - A maximum number of slides moved per single swipe or drag
+- [`touchRatio`](#touchRatio) - Alternate moving distance ratio of swiping and dragging
+- [`touchAngle`](#touchAngle) - Angle required to activate slides moving
+- [`animationDuration`](#animationDuration) - Duration of the animation
+- [`rewind`](#rewind) - Allow looping the `slider` type
+- [`rewindDuration`](#rewindDuration) - Duration of the rewinding animation
+- [`animationTimingFunc`](#animationTimingFunc) - Easing function for the animation
+- [`direction`](#direction) - Moving direction mode
+- [`peek`](#peek) - The value of the future viewports which have to be visible in the current view
+- [`breakpoints`](#breakpoints) - Collection of options applied at specified media breakpoints
+- [`classes`](#classes) - Collection of used HTML classes
+- [`throttle`](#throttle) - Throttle costly events
+
+---
 
 ### `type`
 
