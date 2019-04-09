@@ -19,23 +19,23 @@ new Glide('.glide', {
 ## Reference
 
 - [`type`](#type) - Type of the movement
-- [`startAt`](#startAt) - Start at specific slide number
-- [`perView`](#perView) - A number of visible slides
-- [`focusAt`](#focusAt) - Focus currently active slide at a specified position
+- [`startAt`](#startat) - Start at specific slide number
+- [`perView`](#perview) - A number of visible slides
+- [`focusAt`](#focusat) - Focus currently active slide at a specified position
 - [`gap`](#gap) - A size of the space between slides
 - [`autoplay`](#autoplay) - Change slides after a specified interval
 - [`hoverpause`](#hoverpause) - Stop autoplay on mouseover
 - [`keyboard`](#keyboard) - Change slides with keyboard arrows
 - [`bound`](#bound) - Stop running `perView` number of slides from the end
-- [`swipeThreshold`](#swipeThreshold) - Minimal swipe distance needed to change the slide
-- [`dragThreshold`](#dragThreshold) - Minimal mousedrag distance needed to change the slide
-- [`perTouch`](#perTouch) - A maximum number of slides moved per single swipe or drag
-- [`touchRatio`](#touchRatio) - Alternate moving distance ratio of swiping and dragging
-- [`touchAngle`](#touchAngle) - Angle required to activate slides moving
-- [`animationDuration`](#animationDuration) - Duration of the animation
+- [`swipeThreshold`](#swipethreshold) - Minimal swipe distance needed to change the slide
+- [`dragThreshold`](#dragthreshold) - Minimal mousedrag distance needed to change the slide
+- [`perTouch`](#pertouch) - A maximum number of slides moved per single swipe or drag
+- [`touchRatio`](#touchratio) - Alternate moving distance ratio of swiping and dragging
+- [`touchAngle`](#touchangle) - Angle required to activate slides moving
+- [`animationDuration`](#animationduration) - Duration of the animation
 - [`rewind`](#rewind) - Allow looping the `slider` type
-- [`rewindDuration`](#rewindDuration) - Duration of the rewinding animation
-- [`animationTimingFunc`](#animationTimingFunc) - Easing function for the animation
+- [`rewindDuration`](#rewindduration) - Duration of the rewinding animation
+- [`animationTimingFunc`](#animationtimingfunc) - Easing function for the animation
 - [`direction`](#direction) - Moving direction mode
 - [`peek`](#peek) - The value of the future viewports which have to be visible in the current view
 - [`breakpoints`](#breakpoints) - Collection of options applied at specified media breakpoints
