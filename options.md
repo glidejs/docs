@@ -6,6 +6,31 @@ priority: 6
 algolia: true
 ---
 
+- [Reference](#reference)
+  - [`type`](#type)
+  - [`startAt`](#startAt)
+  - [`perView`](#perView)
+  - [`focusAt`](#focusAt)
+  - [`gap`](#gap)
+  - [`autoplay`](#autoplay)
+  - [`hoverpause`](#hoverpause)
+  - [`keyboard`](#keyboard)
+  - [`bound`](#bound)
+  - [`swipeThreshold`](#swipeThreshold)
+  - [`dragThreshold`](#dragThreshold)
+  - [`perTouch`](#perTouch)
+  - [`touchRatio`](#touchRatio)
+  - [`touchAngle`](#touchAngle)
+  - [`animationDuration`](#animationDuration)
+  - [`rewind`](#rewind)
+  - [`rewindDuration`](#rewindDuration)
+  - [`animationTimingFunc`](#animationTimingFunc)
+  - [`direction`](#direction)
+  - [`peek`](#peek)
+  - [`breakpoints`](#breakpoints)
+  - [`classes`](#classes)
+  - [`throttle`](#throttle)
+
 [[lead]]Glide can be adjusted with various options. Pass an object as an argument while initializing a new instance[[/lead]]
 
 ```js
