@@ -5,7 +5,7 @@ slug: swipe
 algolia: true
 ---
 
-[[lead]]Allows for controlling movement of the instance using finger swipe gestues[[/lead]]
+[[lead]]Allows for controlling movement of the instance using finger swipe gestures[[/lead]]
 
 ## Usage <small>type: `optional`</small>
 
