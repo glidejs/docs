@@ -115,6 +115,8 @@ Schema value of the `data-glide-dir` attribute must be in special format:
 - `={i}` - Go to zero-based {i} slide (eq. '=1', will go to second slide)
 - `>>` - Rewinds to the end (last slide)
 - `<<` - Rewinds to the start (first slide)
+- `|>` - Move perView forward
+- `|<` - Move perView backward
 
 #### Arrows
 
