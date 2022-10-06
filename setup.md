@@ -8,11 +8,11 @@ algolia: true
 
 ### Installation
 
-There are several ways to pull-in Glide.js into your project.
+There are several ways to pull in Glide.js into your project.
 
 #### NPM
 
-It is a recommended way. This installation method guarantees a trouble-free use with bundlers like [Webpack](//webpack.js.org/) or [Rollup](//rollupjs.org/).
+It is a recommended way. This installation method guarantees trouble-free use with bundlers like [Webpack](//webpack.js.org/) or [Rollup](//rollupjs.org/).
 
 ```bash
 # Install the last stable version
@@ -35,8 +35,8 @@ You can also use a reference to some of the popular CDN services:
 
 Glide.js is built in a few different variants. They can be found in the `dist/` directory.
 
-- **Complete** - Builds that contains both required and optional modules.
-- **Modular** - Builds that contains only required modules. Optional modules are exported for import on demand.
+- **Complete** - Builds that contain both required and optional modules.
+- **Modular** - Builds that contain only required modules. Optional modules are exported for import on demand.
 
 |   | UMD | ES Module |
 |---|---|---|
@@ -46,7 +46,7 @@ Glide.js is built in a few different variants. They can be found in the `dist/` 
 
 ## Configuration
 
-[[lead]]It is required to prepare necessary markup and essential styles[[/lead]]
+[[lead]]It is required to prepare the necessary markup and essential styles[[/lead]]
 
 ### Styling
 
@@ -54,7 +54,7 @@ Glide.js styles are divided into two separate files:
 - `glide.core` - Core styles, required for Glide.js to work
 - `glide.theme` - Visual styles. Optional styling for markup.
 
-This way, the library doesn't force you to overwrite it's visual styles if you want to implement your own look.
+This way, the library doesn't force you to overwrite its visual styles if you want to implement your own look.
 
 #### Using `<link>`
 
@@ -118,7 +118,7 @@ Schema value of the `data-glide-dir` attribute must be in special format:
 
 #### Arrows
 
-Knowing about the controls, preparing the arrows navigation is quite simple.
+Knowing about the controls and preparing the arrows navigation is quite simple.
 
 ```html
 <div class="glide">

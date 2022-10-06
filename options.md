@@ -68,7 +68,7 @@ Start at specific slide number defined with zero-based index.
 
 ### `perView`
 
-A number of slides visible on the single viewport.
+The number of slides visible on the single viewport.
 
 <small>default: `1` type: `Number`</small>
 
@@ -90,7 +90,7 @@ Focus currently active slide at a specified position in the track. Available inp
 
 ### `gap`
 
-A size of the gap added between slides.
+The size of the gap added between slides.
 
 <small>default: `10` type: `Number`</small>
 
@@ -142,7 +142,7 @@ Stop running `perView` number of slides from the end. Use this option if you don
 
 ### `swipeThreshold`
 
-Minimal swipe distance needed to change the slide. Use `false` for turning off a swiping.
+Minimal swipe distance needed to change the slide. Use `false` for turning off swiping.
 
 <small>default: `80` type: `Number|Boolean`</small>
 
@@ -172,7 +172,7 @@ A maximum number of slides to which movement will be made on swiping or dragging
 
 ### `touchRatio`
 
-Alternate moving distance ratio of the slides on a swiping and dragging.
+Alternate moving distance ratio of the slides on swiping and dragging.
 
 <small>default: `0.5` type: `Number`</small>
 
@@ -246,7 +246,7 @@ Moving direction mode. Available inputs:
 
 ### `peek`
 
-The distance value of the next and previous viewports which have to peek in the current view. Accepts number and pixels as a string. Left and right peeking can be setup separately with a directions object. For example:
+The distance value of the next and previous viewports which have to peek in the current view. Accepts number and pixels as a string. Left and right peeking can be set up separately with a directions object. For example:
 - `100` - peek 100px on the both sides,
 - `{ before: 100, after: 50 }` - peek 100px on the left side and 50px on the right side.
 
